@@ -2,6 +2,8 @@ from dataclasses import dataclass
 
 from nodes import BiNode
 
+__all__ = ["BinaryTree"]
+
 
 @dataclass
 class BinaryTree:

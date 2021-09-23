@@ -3,6 +3,8 @@ from typing import TypeVar, Union
 
 from nodes.node import Node
 
+__all__ = ["BiNode"]
+
 BiNodeType = TypeVar("BiNodeType", bound="BiNode")
 
 

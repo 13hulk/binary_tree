@@ -1,1 +1,3 @@
-__version__ = '0.1.0'
+from .binary_tree import BinaryTree
+
+__all__ = ["BinaryTree"]
