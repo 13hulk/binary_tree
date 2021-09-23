@@ -58,5 +58,5 @@ if __name__ == "__main__":
 
     btree = BinaryTree(root=b8)
 
-    for i in BinaryTree.inorder_traverse(btree.root):
+    for i in BinaryTree.preorder_traverse(btree.root):
         print(i)
