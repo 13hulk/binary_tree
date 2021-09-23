@@ -1,4 +1,4 @@
-from binary_tree import __version__
+from trees import __version__
 
 
 def test_version():
